@@ -57,6 +57,7 @@ test-suite lm-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Lm.MatMultSpec
       Paths_lm
   hs-source-dirs:
       test
