@@ -1,10 +1,10 @@
 name:                lm
 version:             0.1.0.0
-github:              "githubuser/lm"
+github:              "TomJamesGray/lm"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2020 Author name here"
+author:              "Tom Gray"
+maintainer:          "tomg77@protonmail.com"
+copyright:           "2020 Tom Gray"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- hspec >= 2
 
 library:
   source-dirs: src
