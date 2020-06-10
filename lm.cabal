@@ -36,7 +36,7 @@ library
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
     , hspec >=2.7
   default-language: Haskell2010
 
@@ -48,7 +48,7 @@ executable lm-exe
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
     , hspec >=2.7
     , lm
   default-language: Haskell2010
@@ -63,7 +63,7 @@ test-suite lm-test
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      base >=4.7 && <4.14
     , hspec >=2.7
     , lm
   default-language: Haskell2010
