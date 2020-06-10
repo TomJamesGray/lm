@@ -1,4 +1,4 @@
 language: haskell
 ghc :
-  - "8.1"
+  - "8.10.1"
 script: stack test
